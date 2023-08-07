@@ -1,0 +1,38 @@
+.small {
+  background-color: $buttoncolor;
+  color: $white;
+  font-size: 1rem;
+  width: 120px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.medium {
+  background-color: $buttoncolor;
+  color: $white;
+  font-size: 1.2rem;
+  width: 200px; // Tamaño específico para tablets
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.large {
+  background-color: $buttoncolor;
+  color: $white;
+  font-size: 1.3rem;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}

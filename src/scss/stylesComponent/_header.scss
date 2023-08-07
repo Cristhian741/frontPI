@@ -1,0 +1,94 @@
+header{
+  position: fixed;
+  width: 100%;
+  background-color: var(--first-color);
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  box-shadow: 0 0 10px rgba(221, 83, 3, 0.8);
+}
+
+.nav__logo{
+  
+  display: inline-block;
+}
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.logo{
+max-width: 30%;  
+height: auto;
+}
+
+.nav__toggle,
+.nav__close{
+  display: flex;  
+  cursor: pointer;
+}
+
+.menuImg,
+.closeImg{
+  width: 3rem;
+  height: auto;
+  box-shadow: 3px wheat;
+}
+
+
+.navbar__{
+    display: flex;
+}
+
+.nav__close,
+    .nav__toggle{
+        display: none;
+    }
+
+.nav__list{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+}
+
+
+.nav__link{
+  background-color: rgba(243, 53, 6, 0.89);
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: color .4s;
+}
+
+.nav__link:hover{
+  background-color: rgba(245, 143, 9, 0.89);
+
+}
+
+.buscador_nav{
+  margin-right: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  column-gap: 2rem;
+}
+
+.input_nav{
+  width: 30rem;
+  padding: 3px 3px;
+  border-radius: 15px;
+}
+
+.lupa{
+  width: 4rem;
+  height: auto;
+  color: azure;
+}

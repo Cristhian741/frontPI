@@ -1,0 +1,11 @@
+@import "../abstracts/variable";
+
+.light{
+    color: #333333;
+    background-color:$terciaricolor
+}
+
+.dark{
+    background-color :#252222 ;
+    color: #EEEEEE;
+}

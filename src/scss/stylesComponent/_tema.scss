@@ -1,0 +1,38 @@
+.section__tema{
+    max-width: 1120px;
+    margin-left: 8rem;
+    margin-top: 15rem;
+   
+}
+
+.data__tema_sup{
+    margin-bottom: 3rem;
+}
+
+.data__tema_sup,
+.data__tema_inf{      
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 5rem;
+    row-gap: 10rem;
+}
+
+.data__tema_inf{
+    margin-bottom: 3rem;
+}
+
+.tema_img{
+    width: 40vw;
+    height: auto;
+    border-radius: 30px;
+}
+
+.info__tema{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.tema__sub{
+    color: rgba(243, 53, 6, 0.89);
+}

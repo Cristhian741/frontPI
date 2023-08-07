@@ -1,0 +1,18 @@
+// Import all of Bootstrap's CSS
+
+@import "bootstrap/scss/bootstrap";
+
+//import package base && abstract
+@import "./abstracts/variable";
+@import "./abstracts/backgroundAndText";
+@import "./abstracts/mixin";
+@import "./base/resets";
+@import "./abstracts/alineacion";
+
+//importo componentes
+
+@import "./stylesComponent/button";
+@import "./stylesComponent/footer";
+@import "./stylesComponent/header";
+@import "./stylesComponent/buscadorPrincpal";
+@import "./stylesComponent/logo";

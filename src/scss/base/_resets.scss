@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500&display=swap');
+  /*font-family: 'Tektur', cursive;*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+
+        overflow-x: hidden;
+     
+}
+
+h1, h2, h3{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+:root{
+
+
+/*=== COLORS ===*/
+/*HSL (hue, saturation, lightness)*/
+    --hue: 162;
+    --first-color: rgba(9, 0, 12, 0.952);
+    --first-color-alt: hsl(var(--hue), 56%, 35%);
+    --title-color: hsl(228, 8%, 95%);
+    --text-color: hsl(228, 8%, 65%);
+    --text-color-light: rgb(231, 220, 221);
+    --body-color: hsl(312, 100%, 2%); 
+    --container-color: rgba(12, 0, 7, 0.89);
+
+/*=== Font and typography ===*/
+/*.5rem = 8px - 1rem = 16px */
+    --body-font: 'Tektur', cursive;
+    --biggest-font-size: 3.2rem ;
+    --bigger-font-size:3rem;
+    --h1-font-size: 2.5rem ;
+    --h2-font-size: 1.8rem ;
+    --h3-font-size: 1.6rem ;
+    --normal-font-size: .938rem ;
+    --small-font-size: .813rem ;
+    --smaller-font-size: .75rem ;
+
+/*=== Font weight ===*/
+    --font-regular: 400;
+    --font-medium: 500 ;
+    --font-semi-bold: 600;
+
+/*=== Margin Bottom ===*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+
+/*=== z index ===*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+.container{
+    margin-inline: auto;
+}
+
+.home__container{
+    grid-template-columns: 455px 550px;
+    column-gap: 10rem;
+    padding-block: 3.2rem 4.2rem ;
+}
